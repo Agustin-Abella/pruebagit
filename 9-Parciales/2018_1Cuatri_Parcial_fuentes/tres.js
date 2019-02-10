@@ -1,8 +1,9 @@
 function mostrar()
-{var precio = prompt("indique precio");
-var descuento = prompt("indique el descuento");
-precio=parseint(precio);
-descuento = parseint(descuento);
-total= precio -(precio * descuento)/100;
-alert("el total es"+total);
+{var precio = prompt("indique el precio");
+var descuento = prompt ("indique el descuento");
+precio = parseInt(precio);
+descuento = parseInt(descuento);
+var total = (descuento / precio) *100;
+document.getElementById("elPrecioFinal").value = total;
+
 }

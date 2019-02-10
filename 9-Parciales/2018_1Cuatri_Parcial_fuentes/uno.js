@@ -1,11 +1,9 @@
 
 function mostrar()
-{var ancho = prompt("ingesar el ancho");
-    var largo = prompt("ingresar largo");
-var total;
+{var lar = prompt("ingrese el largo del rectangulo");
+var ancho= prompt("ingresar el ancho del ractangulo");
+lar = parseInt(lar);
 ancho = parseInt(ancho);
-largo = parseInt(largo);
-total = (2 * ancho) + (2 * largo);
-alert("el perimetro es: "+total );
-
+var perimetro = (2*lar) + (2*ancho);
+alert("el perimetro es: " +perimetro);
 }
